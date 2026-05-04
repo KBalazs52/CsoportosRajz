@@ -1,0 +1,1 @@
+#jelzolampa teste, hatterszin

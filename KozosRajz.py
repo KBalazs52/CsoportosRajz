@@ -61,7 +61,7 @@ turtle.begin_fill()
 i=0
 while i<2:
     turtle.right(90)
-    turtle.forward(200)
+    turtle.forward(250)
     turtle.right(90)
     turtle.forward(50)
     i+=1

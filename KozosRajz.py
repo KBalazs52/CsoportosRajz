@@ -24,9 +24,9 @@ while i < 4:
 turtle.end_fill()
 
 #körök
-
+turtle.penup()
 turtle.goto(50, 10)
-
+turtle.pendown()
 i = 0
 while i < 3:
     if i == 0:

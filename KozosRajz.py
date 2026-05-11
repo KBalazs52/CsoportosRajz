@@ -3,15 +3,15 @@
 #jelzolampa felso resze es fenyek H. Bálint
 #alap beallitasok
 import turtle
-# turtle.speed(0)
+turtle.speed(0)
 turtle.color("Gray")
-
+#hatter szine
+turtle.bgcolor("DarkSlateGray1")
 
 #jelzolampa fekete negyzet
 turtle.fillcolor("black")
 turtle.begin_fill()
-#hatter szine
-turtle.bgcolor("DarkSlateGray1")
+
 i = 0
 while i < 4:
     if i % 2:
@@ -24,9 +24,9 @@ while i < 4:
 turtle.end_fill()
 
 #körök
-turtle.penup()
+
 turtle.goto(50, 10)
-turtle.pendown()
+
 i = 0
 while i < 3:
     if i == 0:
@@ -49,7 +49,6 @@ while i < 3:
 turtle.penup()
 turtle.goto(0, 0)
 turtle.pendown()
-
 #pozicio
 turtle.penup()
 turtle.goto(75,0)
